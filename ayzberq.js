@@ -16,8 +16,10 @@ $.ajax({
 
 let eCommerceWebSites = [
     'www.hepsiburada.com',
-    'urun.gitgidiyor.com',
+    'urun.gittigidiyor.com',
+    'www.gittigidiyor.com',
     'urun.n11.com',
+    'www.n11.com',
     'www.incehesap.com',
     'www.apple.com',
     'www.samsung.com',
@@ -95,12 +97,12 @@ if(eCommerceWebSites.includes(location.host)) {
                                         let html = '<div class="card ayzberq-card">\n' +
                                             '    <div class="card-header">\n' +
                                             '        <div class="card-title">\n' +
-                                            '            ' + data2.title  +
+                                            '            ' + data2.title + '(' + data2.model + ')' +
                                             '        </div>\n' +
                                             '        <div class="card-subtitle">\n' +
-                                            '            ' + data2.model +
+                                            '            <a href="">Sonrası için Kaydet</a> &nbsp; <a href="">Fiyatı Düşünce Uyar</a>' +
                                             '        </div>\n' +
-                                            '        <div class="card-rate">' + data2.rate + '/5</div>\n' +
+                                            '        <div class="card-rate">' + data2.rate + '/5 Puan</div>\n' +
                                             '    </div>\n' +
                                             '    <div class="card-body">\n' +
                                             '        <div class="sellers">\n' + sellersHTML +

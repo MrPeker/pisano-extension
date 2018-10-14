@@ -12,7 +12,7 @@
     padding-bottom: 0;
     font-family: 'Montserrat', 'Roboto', 'Open Sans', 'Arial', 'Verdana', 'Calibri';
     max-width: 400px;
-    z-index: 9999;
+    z-index: 998;
 }
 
 .card-header {
@@ -26,8 +26,31 @@
 }
 
 .card-subtitle {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-subtitle a {
+    width: 80%;
+    border-radius: 15px;
+    background: darkred;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .3px;
+    text-align: center;
+    padding: 5px 5px;
+    transition: .3s all;
+}
+
+.card-subtitle a:hover {
+    background: white;
+    color: darkred;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .1);
 }
 
 .card-rate {
@@ -48,8 +71,8 @@
 }
 
 .seller {
-    height: 150px;
-    min-height: 150px;
+    min-height: 230px;
+    height: 230px;
     text-decoration: none;
     cursor: pointer;
     display: flex;
@@ -59,6 +82,10 @@
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, .16);
+}
+
+.seller-left {
+    min-height: 50px;
 }
 
 .seller-center {
