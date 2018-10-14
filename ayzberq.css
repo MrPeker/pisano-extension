@@ -1,0 +1,115 @@
+.ayzberq-card {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    background: white;
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    padding: 25px;
+    padding-bottom: 0;
+    font-family: 'Montserrat', 'Roboto', 'Open Sans', 'Arial', 'Verdana', 'Calibri';
+    max-width: 400px;
+    z-index: 9999;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-rate {
+    letter-spacing: .5px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sellers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.seller {
+    height: 150px;
+    min-height: 150px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .16);
+}
+
+.seller-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.seller-title {
+    font-size: 18px;
+    color: #232323;
+}
+
+.seller-name {
+    color: #232323;
+    font-weight: 300;
+}
+
+.seller-right {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seller-price {
+    font-size: 28px;
+    color: #232323;
+    font-weight: 300;
+}
+
+.seller-price > span {
+    font-weight: 500 !important;
+}
+
+.seller-shipment {
+    color: #353535;
+}
+
+.card-footer {
+    display: flex;
+    width: 100%;
+}
+
+.card-features {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
